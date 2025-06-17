@@ -3,6 +3,7 @@
 A Simple Apple Intelligence AI Server for macOS 26+ on M1 or higher Macs
 
 ## Getting Started
+To run a prebuilt version of IntelligenceServer (EXPERIMENTAL) go to the [latest Release](https://github.com/timi2506/IntelligenceServer/releases/latest)
 
 To build the project using the Swift Package Manager, run the following command in the terminal from the root of the project:
 ```bash
