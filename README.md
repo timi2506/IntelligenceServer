@@ -1,6 +1,6 @@
 # IntelligenceServer
 
-A Simple Apple Intelligence AI Server for 
+A Simple Apple Intelligence AI Server for macOS 26+ on M1 or higher Macs
 
 ## Getting Started
 
@@ -19,9 +19,27 @@ To execute tests, use the following command:
 swift test
 ```
 
-### See more
-
-- [Vapor Website](https://vapor.codes)
-- [Vapor Documentation](https://docs.vapor.codes)
-- [Vapor GitHub](https://github.com/vapor)
-- [Vapor Community](https://github.com/vapor-community)
+### Available Routes
+1. GET / and /routes           
+    - Returns these Routes.
+    
+2. GET /respond
+    - Input: Provide the prompt in one of the following ways:
+        • As a query parameter:   ?prompt=YourPromptHere
+        • As JSON in the body:    { "prompt": "YourPromptHere" }
+        • As plain text in the body: YourPromptHere
+    - Output: Returns the generated response as plain text (String).
+    
+3. GET /respondJSON
+    - Same input options as /respond.
+    - Output: Returns the generated response in a JSON object: { "output": "..." }
+    
+4. GET /stream
+    - Same input options as /respond.
+    - Output: Streams the generated response as plain text (chunked).
+    
+5. GET /streamJSON
+    - Same input options as /respond.
+  
+### Roadmap
+OpenAI Compatible Routes for use in Apps like Xcode
