@@ -2,7 +2,7 @@
 
 A Simple Apple Intelligence AI Server for macOS 26+ on M1 or higher Macs
 ## Roadmap
-OpenAI Compatible Routes for use in Apps like Xcode
+OpenAI Compatible API Routes for use in Apps like Xcode
 ## Getting Started
 To run a prebuilt version of IntelligenceServer (EXPERIMENTAL) go to the [latest Release](https://github.com/timi2506/IntelligenceServer/releases/latest)
 
